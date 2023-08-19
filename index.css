@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+ 
+body{
+    background-image: url(bg.jpg);
+}
+.meme_genertor{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.generate-meme-btn{
+    padding: 10px 5px;
+    border-radius: 8px;
+    margin: 5px;
+    border-color: aqua;
+    background-color: rgb(14, 234, 40);
+    cursor: pointer;
+}
+
+.generate-meme-btn:hover{
+    padding: 12px 6px;
+    background-color: aqua;
+    border-color: rgb(143, 65, 65);
+}
+
+.meme-author{
+    margin: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.meme_genertor img{
+    height: 70vh;
+    width: 80vh;
+}
+
+h3{
+    margin: 0px;
+    color: blue;
+}
